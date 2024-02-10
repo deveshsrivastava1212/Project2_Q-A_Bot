@@ -1,0 +1,32 @@
+{"intents": [
+  {"tag": "greeting",
+   "patterns": ["Hi there", "How are you", "Is anyone there?","Hey","Hola", "Hello", "Good day"],
+   "responses": ["Hello", "Good to see you again", "Hi there, how can I help?"],
+   "context": [""]
+  },
+  {"tag": "bye",
+   "patterns": ["Bye", "See you later", "Goodbye", "Nice chatting to you, bye", "Till next time"],
+   "responses": ["See you!", "Have a nice day", "Bye! Come back again soon."],
+   "context": [""]
+  },
+  {"tag": "thanks",
+   "patterns": ["Thanks", "Thank you", "That's helpful", "Awesome, thanks", "Thanks for helping me"],
+   "responses": ["My pleasure", "You're Welcome"],
+   "context": [""]
+  },
+  {"tag": "admission",
+   "patterns": ["How to take admission?", "About admission", "What does admission mean", "admission"],
+   "responses": ["Follow these general steps: Check Eligibility: Ensure you meet course requirements. Register Online: Fill out the application form on the DU admissions portal. Pay Fee: Pay the application fee online.Check Cutoffs: Await cutoff lists for your course. Document Verification: Visit the college for document verification.Pay Admission Fees: Secure your seat by paying fees.Confirmation: Receive admission confirmation.Report to College: Attend college with required documents for final admission."],
+   "context": [""]
+  },
+  {"tag": "requirements",
+   "patterns": ["What is requirements?", "About requirements", "admission requirements", "what things are required?"],
+   "responses": ["Ensure you meet eligibility criteria, submit your application online, pay the required fees, qualify through merit-based scores or entrance exams, attend document verification at the college, receive admission confirmation, and finally, report to the allotted college for completion of the admission process"],
+   "context": [""]
+  },
+  {"tag": "deadline",
+  "patterns": ["What is deadline for admissions?", "About deadline", "deadline to take applications", "deadline"],
+  "responses": ["The admission deadlines for the University vary each year and depend on the specific courses and admission cycles, so it's crucial to regularly check the official admission portal or contact the university directly for the most accurate and up-to-date information regarding admission deadlines."],
+  "context": [""]
+  }
+]}
